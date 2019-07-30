@@ -1,0 +1,112 @@
+
+/* personPanel start */
+.fd-person-panel{
+    position: fixed;
+    height: 80%;
+    width: 65%;
+    background:#e4e4e4;
+    z-index:1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.fd-person-panel .left{
+    width: 75%;
+    height:100%;
+    float: left;
+    border-radius: 5px;
+
+}
+.fd-person-panel .right{
+    width: 25%;
+    background: #222;
+    height:100%;
+    float: right;
+    border-radius: 5px;
+
+}
+.fd-person-panel .left .option{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.fd-person-panel .left .userinfo{
+    width: 100%;
+    margin:50px auto;
+}
+.fd-person-panel .left .userinfo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.fd-person-panel .left .userinfo .uname{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.fd-person-panel .left .userinfo .slogen{
+    text-align: center;
+    margin-top: 20px;
+}
+.fd-person-panel .left .contacts{
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    min-width: 200px;
+}
+.fd-person-panel .left .contacts .active{
+    width: 24%;
+    text-align: center;
+}
+.fd-person-panel .left .contacts .contact .icon{
+    font-size: 30px;
+}
+.fd-person-panel .left .contacts .contact .cname{
+    margin:12px auto;
+    text-align: center
+}
+.fd-person-panel .left .contacts li{
+    float: left;
+    text-align: center
+}
+.fd-person-panel .left .contacts .block{
+    width: 2px;
+    height: 60px;
+    background: linear-gradient(rgba(200,200,200,.5),rgb(16, 101, 212),rgba(200,200,200,.5));
+    margin-top: 5px;
+
+}
+.fd-person-panel .right .profile{
+    width:100%;
+    /* padding: 12px; */
+    height: 33.33%;
+    background: #999;
+    padding-top: 35px;
+    box-sizing: border-box
+}
+.fd-person-panel .right .skills,.projecs{
+    width:100%;
+    /* padding: 12px; */
+    height: 33.33%;
+    background: #555;
+    padding-top: 35px;
+    box-sizing: border-box
+}
+.fd-person-panel .right .icon{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+}
+.fd-person-panel .right .cname{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+/* personPanel end */
+
